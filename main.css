@@ -1,0 +1,39 @@
+body{
+	-webkit-apperance:none;
+}
+
+ul.topnav{
+	list-style-type: none;
+	float:right;
+	margin: 0px auto;
+}
+
+#topnav li{
+	float:left;
+	padding: 0px 10px;
+}
+
+a.topnav{	
+	display:block;
+  	margin:13px 0px 0px 0px;
+  	text-decoration:none;  	
+}
+
+
+ul.bottomnav{
+	list-style-type: none;	
+	margin: 0px auto;
+	position: absolute;
+	bottom:0px;
+}
+
+#bottomnav li{
+	float:left;
+	padding: 0px 10px;
+}
+
+a.bottomnav{	
+	display:block;
+  	margin:13px 0px 0px 0px;
+  	text-decoration:none;  	
+}
