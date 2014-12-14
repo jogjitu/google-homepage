@@ -13,17 +13,30 @@
 			<li><a href="">Sign In</a></li>			
 		</ul>
 	</div>
-	<div class="main">
-		<div class="logo">
-			<IMG SRC="http://lh6.ggpht.com/6xBfOZaiVC3ab__-tcgFtyiEvMvfaCmBrT2XPUySTVkUi-ICNBuL2M13ZaS0UswGnQucTkwi8GjMpZLL7JkX4sNvElILD5Lldzxnzf-b=s660">
-		</div>
-		<div class="searchBox">
-			<form action="index.html" name="search">
-				<input type="text" name="searchText">
-				<input type="submit" value="Google Search">
-			</form>	
+	<div class="container">
+			<div class="logo">
+				<IMG SRC="http://lh6.ggpht.com/6xBfOZaiVC3ab__-tcgFtyiEvMvfaCmBrT2XPUySTVkUi-ICNBuL2M13ZaS0UswGnQucTkwi8GjMpZLL7JkX4sNvElILD5Lldzxnzf-b=s660">
+			</div>
+			
+				<form action="index.html" name="search" id="search">
+					<div class="searchtextcontainer">
+						<input type="text" name="searchText" size="100" id="searchtextbox">						
+							<a href=""  id="searchbyvoice_a">
+								<span id="searchbyvoice_span"></span>
+							</a>						
+					</div>
+					<div class="buttonContainer">
+						<button type="button" id="searchButton">
+							<span id="searchButtonText">Google Search</span>
+						</button>
+						<button type="button" id="ImLuckyButton">
+							<span id="ImLuckyText">I m Feeling Lucky</span>
+						</button>
+
+					</div>					
+				</form>	
 		</div>	
-	</div>	
+	
 
 	<div id="bottomnav">
 		<ul class="bottomnav">		
