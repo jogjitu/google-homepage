@@ -190,22 +190,49 @@ a.topnav{
 	display: inline-block;
 	margin: -3px 0 0 0;
 }
-			
-ul.bottomnav{
-	list-style-type: none;	
-	margin: 0px auto;
+
+#bottomnav{
+	width: 100%;
+	height: 40px;
+	background: #e2e2e2;
 	position: absolute;
 	bottom:0px;
+	border-top: 1px solid #f2f2f2;
+	font-size: small;
+	color: #666;
+	font-family: arial,sans-serif;
+
+}
+			
+.bottomleftnav{
+	margin-left: 30px;		
+	float: left;
+
 }
 
-#bottomnav li{
-	float:left;
-	padding: 0px 10px;
+
+.bottomleftnav a{
+	display:inline-block;  	
+  	text-decoration:none; 	
+  	margin: 10px 20px 0 0;
+  }
+
+  #bottomnav a:visited{
+  	color: #666;
+  }
+
+ #bottomnav a:hover{
+  	text-decoration: underline;
+  }
+
+.bottomrightnav a{
+	display:inline-block;  	
+  	text-decoration:none; 	
+  	margin: 10px 20px 0 0;
+
 }
 
-a.bottomnav{	
-	display:block;
-  	margin:13px 0px 0px 0px;
-  	text-decoration:none;  	
+.bottomrightnav{
+	margin-right: 30px;
+	float: right;
 }
-
