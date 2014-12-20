@@ -46,5 +46,34 @@ document.write("<div id='problem2'><span> problem2:");
 document.write(problem2+"</span></div>");
 
 
+var problem3=0;
+var primefactors=new Array();
+var isPrime=false;
+for(i=3;i<=13195;i++){
+	primefactors[i]=0;
+	if (13195%i === 0){
+
+		for(j=2;j<i;j++){
+			isPrime=false;
+			if(i%j===0){
+				break;
+			}
+			else{
+				isPrime=true;
+			}	
+
+		}
+	if (isPrime){		
+		primefactors[i]=i;
+		document.write("<div id='problem3'><span> problem3:");
+		document.write(primefactors[i]+"</span></div>");
+
+	}
+	}
+
+}
+
+
+
 
 
